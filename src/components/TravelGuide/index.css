@@ -18,6 +18,12 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px; /* Adjust the gap between items as needed */
 }
+@media (min-width: 992px) {
+  /* Adjust the breakpoint as needed */
+  .api-data-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 .image {
   width: 100%;
